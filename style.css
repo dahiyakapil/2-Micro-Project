@@ -1,0 +1,354 @@
+@import url("https://fonts.googleapis.com/css2?family=Delius+Unicase&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  width: 100%;
+  padding-top: 12vh;
+}
+
+.navbar {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  height: 10vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #6f6af7;
+  color: white;
+  padding: 0 20px;
+}
+
+.nav-title {
+  font-family: "Delius Unicase";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 79px;
+}
+
+.mid {
+  display: flex;
+  align-items: center;
+}
+
+.mid-items {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 47px;
+  align-self: center;
+}
+
+.mid-items > li {
+  padding: 0 20px;
+  cursor: pointer;
+}
+
+/* #drop-down {
+  position: relative;
+  right: 38px;
+  bottom: 4px;
+  font-size: 14px
+} */
+
+
+#dropdown-icon {
+  position: absolute;
+  left: 58%;
+  bottom: 32px;
+
+}
+
+#search-box {
+  background-color: white;
+  width: 240px;
+  height: 30px;
+  border-radius: 60px;
+  border: none;
+  padding: 0 18px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #9f9f9f;
+}
+
+.search-bar-input {
+  height: 20px;
+  border: none;
+}
+
+.search-icon {
+  border: none;
+  background-color: white;
+  cursor: pointer;
+}
+
+.search-lens-img {
+  width: 20px;
+  height: 15px;
+  position: relative;
+  top: 2px;
+}
+.right {
+  display: block;
+  margin-top: 6;
+}
+.hamburger {
+  width: 35px;
+  height: 5px;
+  background-color: white;
+  margin: 6px 0;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+/* Section 1 */
+.section-1 {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 10vh;
+  padding: 0 0 50px 70px;
+}
+
+.laptop-img {
+  width: 400px;
+  height: 410px;
+  border-radius: 20px;
+}
+
+.dev-info-text-area {
+  width: 900px;
+  height: 410px;
+  background: #e5d8ff;
+  border: 6px solid #ffffff;
+  box-shadow: inset 3px 5px 27px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+  padding: 20px;
+  color: #6f7373;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 178.7%;
+}
+
+/* Social Media container */
+
+.social-media-icons-conatiner {
+  float: right;
+  position: sticky;
+  top: 12vh;
+  margin-top: 25vh;
+}
+
+.social-media-icons-conatiner > a > img {
+  width: 40px;
+  height: 40px;
+  display: block;
+  border: 2px solid #000000;
+  border-radius: 5px;
+  margin: 1px;
+  padding: 2px;
+  cursor: pointer;
+}
+
+/* Cards section */
+
+.cards-section {
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    padding: 0 35px 50px 60px;
+}
+
+.cards-section>div {
+    text-align: left;
+    padding: 15px;
+    width: 250px;
+    height: 90px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.08em;
+}
+
+.question-container {
+    background: #929DFF;
+    box-shadow: 0px 9px 31px rgba(0, 0, 0, 0.4);
+    border-radius: 6px;
+}
+
+.answer-container {
+    background: #734CF2;
+    box-shadow: 0px 9px 31px rgba(0, 0, 0, 0.4);
+    border-radius: 6px;
+}
+
+.participated-container {
+    background: #734CF2;
+    box-shadow: 0px 9px 31px rgba(0, 0, 0, 0.4);
+    border-radius: 6px;
+}
+
+.passed-container {
+    background: #000000;
+    box-shadow: 0px 9px 31px rgba(0, 0, 0, 0.4);
+    border-radius: 6px;
+}
+
+/* chatbot logo */
+/* .chatbot-logo {
+  float: right;
+  height: 120px;
+  border-radius: 50%;
+  padding: 10px;
+  box-shadow: 4px 10px 20px rgba(0, 0, 0, 0.25);
+  bottom: 5px;
+  right: 90px;
+  background-color: white;
+  position: fixed;
+  cursor: pointer;
+}
+  */
+
+
+
+.chatbot-logo {
+  float: right;
+  height: 70px;
+  bottom: 5px;
+  right: 90px;
+  position: fixed;
+  cursor: pointer;
+} 
+
+
+
+
+/* info section */
+.info-section {
+    border: 2px solid black;
+    background-color: #483EFF;
+    border-radius: 15px;
+    height: 500px;
+    width: 90%;
+    margin-bottom: 50px;
+    margin-left: 55px;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 20px 20px 40px;
+
+}
+
+.sidebar-cards {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.sidebar-cards>div {
+    width: 300px;
+    height: 97px;
+    color: white;
+    border: 5px solid white;
+    border-radius: 13px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 63px;
+    letter-spacing: 0.04em;
+    cursor: pointer;
+}
+
+.sidebar-cards>div:hover {
+    background-color: #6F6AF7;
+}
+
+.sidebar-cards div:first-child {
+    background-color: #BCE0F6;
+    color: black;
+    border: none;
+    box-shadow: 0px 6px 35px rgba(0, 0, 0, 0.39);
+}
+
+.information {
+    width: 69%;
+    height: 100%;
+    background-color: white;
+    border-radius: 18px;
+    padding: 30px 30px;
+    color: #04285A;
+}
+
+.information > ul > li {
+    display: block;
+    margin: 20px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 33px;
+    letter-spacing: 0.105em;
+    padding-left: 10px;
+}
+
+.info-title {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 46px;
+    letter-spacing: 0.105em;
+}
+
+.information > ul > li > span {
+    color: #143565;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: 0.05em;
+    padding-left: 10px;
+}
+
+/* Next button */
+.next-button {
+    float: right;
+    background: #000000;
+    border-radius: 5px;
+    width: 180px;
+    height: 70px;
+    color: white;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 35px;
+    letter-spacing: 0.05em;
+    cursor: pointer;
+    margin-bottom: 0px;
+}
+
+.next-button:hover {
+    background-color: #383333;
+}
+
